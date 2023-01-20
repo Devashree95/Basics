@@ -1,0 +1,45 @@
+Exercise: 1) What is the method signature (return type, method name, and parameters) of the last function in this blob?
+Return type : object of the class treethresh
+method name : cmd_worktree
+parameters : int ac, const char **av, const char *prefix
+
+
+Exercise: 2) What is the latest version of the release notes (RelNotes....txt) for the git repository?
+RelNotes-1.5.2.txt
+
+Exercise: 3) What is the output of git cat-file -p 83484f | tail -4 | head -1? Briefly explain what this command does.
+output : 100644 blob f55d4083edd518a0dad26a37ac4d5c6877184c4f    tutorial.txt
+
+This command is doing following things:
+1. cat-file reads the data from the file 83484f and displays its contents
+2. tail -4 gets the last 4 lines from the output
+3. head -1 takes 4 lines from step 2 and get 1st line of that ouptup
+
+Exercise: 5) What is the commit message submitted with this commit?
+l10n: de.po: Update German translation for Git v2.31.0
+
+Exercise: 6) Write a bash command(s) to search the commit graph for commits that mention the word "refactored". Then, run the command and add the output (answer should include command and output).
+
+Command:
+PAGER='head -n 80' git log --graph --oneline > output.txt
+grep refactored output.txt
+
+Output:
+94bcad7979 sequencer: change complete_action() to use the refactored functions
+bbfe5302d5 implement test_might_fail using a refactored test_must_fail
+c18f75a1e9 send-email: add tests for refactored prompting
+
+Exercise: 7) What is the name of the first file listed that changed between versions 2.31.0 and 2.31.1?
+Documentation/RelNotes/2.31.1.txt
+
+Exercise: 8) Provide a list of all the branches for the git repository.
+[root@docable git]$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/jch
+  remotes/origin/main
+  remotes/origin/maint
+  remotes/origin/master
+  remotes/origin/next
+  remotes/origin/seen
+  remotes/origin/todo
