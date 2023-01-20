@@ -1,0 +1,20 @@
+What is your favourite programming language? Why?
+
+My favorite programming language is Python. Being a Data Engineer myself, python is very useful for building efficient data pipelines. 
+I love Python for fllowing reasons:
+1. Python has a relatively low learning curve which makes it easier to learn.
+2. We can implement many tasks by writing only a few lines of code.
+3. The code is more readable.
+4. Provides a wide variety of very useful libraries and in built functions like NumPy, Pandas etc. that can be used very easily with many applications.
+5. Python is open source
+6. All the cloud providers provide SDK for Python
+
+
+Is your favorite language the one you are also most experienced with? If not, which language are you most experienced with?
+
+I am most experienced withPython which is also my favorite language. I have been working as a Data Engineer since last 6 years. 
+Python is very useful for Data Engineering applications. I have worked on Pyspark, which is used to implement Big Data solutions 
+using Python. Using varous libraries available in Python, I have implemented data processing pipelines which includes importing 
+data into the system from multiple sources, cleaning the data, implementing data checks and quality checks, build transformation 
+logics and making data available for the front end layers to be utilized.
+Apart from Python, I have some experience in Hive and Sql.
